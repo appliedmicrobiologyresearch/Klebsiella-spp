@@ -18,6 +18,9 @@ Input files are
 (ii) the output from Kleborate screening for AMR genes 
 (iii) a file 'species.csv' displaying whcih strain belongs to which Klebsiella species (needed for coloring)
 
+# virulence_horizontal_circos_Gantt.R
+This script diplays the virulence factors screened for (thise included in Kleborate and the cytotoxin tilivalline), for each strain. It uses virulence_data_reordered.txt as input file.
+
 # heatmap_masses.R
 This script generates a heatmap, displaying the frequency of ribosomal mass alleles, predicted from Klebsiella species genomic data.
 Inputs are 
