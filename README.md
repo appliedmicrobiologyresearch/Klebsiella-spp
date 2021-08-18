@@ -25,7 +25,7 @@ Inputs are
 This script visualises which K and O loci have been identified per Klebsiella species. It uses the file KandO_final_table_fused.tsv as input containg the species ID and the K and O loci as identified by Kleborate (v0.3.0) (https://github.com/katholt/Kleborate) 
 
 # plasmid_count_visualize.R
-This script visualises which plasmid replicons have been identified per Klebsiella species. It uses plasmid_count_final_table.tsv as input which lists the species and the number of plasmid replicons identified by Plasmidfinder (https://cge.cbs.dtu.dk/services/PlasmidFinder/)
+This script visualises how many plasmid replicons have been identified per Klebsiella species. It uses plasmid_count_final_table.tsv as input which lists the species and the number of plasmid replicons identified by Plasmidfinder (https://cge.cbs.dtu.dk/services/PlasmidFinder/)
 
 # plasmid_presence_visualize.R
 This script visualises which plasmid replicons have been identified per Klebsiella species.  It uses plasmid_presence_final_table.tsv as input table which lists which plasmids have been identified per strain using Plasmidfinder (https://cge.cbs.dtu.dk/services/PlasmidFinder/)
