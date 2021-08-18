@@ -21,3 +21,6 @@ Inputs are
 (i) The predicted masses in binary form, displaying which Klebsiella assembly (rows) encodes which mass alleles (columns) and 
 (ii) The file 'Table_S1_Assemblies' which lists all assemblies and also includes the information which strains were included in the genomic analysis (dereplicated, excluding strains which shared > 99.9% ANIm with another strain in the selection)
 
+# KandO_visualize.R
+This script visualises which K and O loci have been identified per Klebsiella species. It uses the file KandO_final_table_fused.tsv as input containg the species ID and the K and O loci as identified by Kleborate (v0.3.0) (https://github.com/katholt/Kleborate) 
+
