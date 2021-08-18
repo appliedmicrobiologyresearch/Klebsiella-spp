@@ -35,3 +35,6 @@ This script visualises how many plasmid replicons have been identified per Klebs
 
 # plasmid_presence_visualize.R
 This script visualises which plasmid replicons have been identified per Klebsiella species.  It uses plasmid_presence_final_table.tsv as input table which lists which plasmids have been identified per strain using Plasmidfinder (https://cge.cbs.dtu.dk/services/PlasmidFinder/)
+
+# ANIm_make_groups.py
+This script groups assemblies, which share more than 99.9% Average Nucleotide Identity. It uses ANIm_percentage_identity.tab as input displaying ANIm values.
