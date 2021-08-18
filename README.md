@@ -12,7 +12,7 @@ As input gene_presence_absence.Rtab from roary (https://sanger-pathogens.github.
 This script generates a heatmap displaying the occurrence of AMR genes screened using Kleborate
 Input files are 
 (i) the phylogenetic tree of dereplicated Klebsiella assemblies (n=548) (core genome alignment from roary, tree by Fasttee) and 
-(ii) the output from Kleborate screening for AMR genes (Kleborate was run  as two genomes were missing in the first screen)
+(ii) the output from Kleborate screening for AMR genes 
 (iii) a file 'species.csv' displaying whcih strain belongs to which Klebsiella species (needed for coloring)
 
 # heatmap_masses.R
